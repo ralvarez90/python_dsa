@@ -4,7 +4,6 @@ Son colecciones de elementos sin repetir. Son instancias
 de la clase Set.
 """
 import random
-from typing import Set
 
 
 def showExample01():
