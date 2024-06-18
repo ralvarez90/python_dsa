@@ -7,7 +7,7 @@ import random
 
 
 def showExample01():
-    someItems = [random.randint(1, 100) for _ in range(100)]
+    someItems = [random.randint(1, 10) for _ in range(10)]
     print(f'someItems has a type: f{someItems}')
     someItems = set(someItems)
     print(f'After deleting some items: {someItems}')

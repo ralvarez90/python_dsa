@@ -3,7 +3,6 @@
 Son colecciones de datos mutables que permiten almacenar elementos de manera
 indexada. Los elementos son indexados desde el 0 hasta el de su longitud - 1.
 """
-import tools
 
 
 def showExample01():
@@ -19,7 +18,7 @@ def showExample02():
         print(sublist)
 
     print(f'Last item in {someList}')
-    print(tools.getLastItem(someList))
+    print(someList[-1] if len(someList) > 0 else None)
 
 
 def main():
