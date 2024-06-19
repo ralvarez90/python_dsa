@@ -1,7 +1,7 @@
 """STRINGS
 
-Son secuencias de bytes inmutables e instancias
-de la clase str. Cada elemento representa un caracter
+Son secuencias de bytes inmutables e instancias de 
+la clase str. Cada elemento representa un caracter
 unicode.
 
 Python no cuenta con tipo caracteres, son strings de

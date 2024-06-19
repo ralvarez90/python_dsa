@@ -12,7 +12,7 @@ def showExample01():
     print(someDict)
 
     # accessing a element using key
-    print('Accessomg a element using key: ')
+    print('Accessing a element using key: ')
     if 'name' in someDict.keys():
         print(f'someDict["name"] -> {someDict["name"]}')
         print(f'                 -> {someDict.get("name")}')

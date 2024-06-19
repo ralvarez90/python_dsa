@@ -23,7 +23,6 @@ def showExample01():
     # add elementos
     for _ in range(100):
         a.append(random.randint(0, 255))
-
     print(f'Final bytearray: {a}')
 
 
